@@ -1,0 +1,22 @@
+# Core
+fastapi>=0.116.0
+uvicorn[standard]>=0.35.0
+pydantic>=2.11.0
+pydantic-settings>=2.10.0
+
+# Database
+pymysql>=1.1.1
+sqlalchemy>=2.0.40
+cryptography>=45.0.0
+
+# LangGraph & LLM
+langgraph>=0.2.76
+langchain>=0.3.27
+langchain-core>=0.3.70
+langchain-groq>=0.3.6
+groq>=0.30.0
+
+# Utilities
+python-dotenv>=1.0.1
+openpyxl>=3.1.5
+httpx>=0.28.1
